@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    
+    <form novalidate>
+
+        Please Enter your Name:
+        <br>
+        
+        <br>
+        Email Address:
+        <br>
+        <input type="email" name="email" id="">
+        <br>
+        Please Enter your Password:
+        <br>
+        <input 
+            type="password" 
+            name="pw" 
+            id="pw"
+            
+            >
+        <br>
+        Address:
+        <br>
+        <textarea name="UsrAddress" 
+            id="UsrAddress" 
+            cols="10" 
+            rows="5"
+            >
+
+        </textarea>
+        <br>
+        <input type="radio" name="drink" value="tea">Tea
+        <input type="radio" name="drink" value="Coffee">Coffee
+        <input type="radio" name="drink" value="Choc">Choc
+        <br>
+        <input type="checkbox" name="checkMilk" id="" value="yes">Milk
+        <input type="checkbox" name="checkSugar" id="" value="yes">Sugar
+        <br>
+        
+        <select name="drop1" size="1">
+            <option value="" selected disabled>Choose one....</option>
+            <option value="cookie">Cookie</option>
+            <option value="HCBun">Hot Cross Bun</option>
+
+        </select>
+        <br>
+
+        <input type="submit" value="Submit Form">
+        <input type="reset" value="Reset Form">
+        <input type="button" value="my button" onclick="">
+
+
+
+
+        <br>
+
+        <input type="number" 
+            name="nums" 
+            id=""
+            value="7"
+            min="1"
+            max="12"
+            step="2"
+            >
+
+            <input type="range" name="slider" min="1" max="12" value="9">
+            <br>
+            <input type="date" name="" id="">
+            <br>
+            <input type="color">
+        <br>
+            <input type="text" pattern="[0-9]{13,16}">
+    
+            <fieldset>
+                <legend>Your Data</legend>
+                <label for="username">First Name</label>
+                <input type="text" 
+                name="username" 
+                maxlength="4"
+                placeholder="Enter your name"
+                required
+                autofocus
+                > <br>
+                <label for="lastName">Last Name</label>
+                <input type="text" 
+                name="lastName" 
+                maxlength="4"
+                placeholder="Enter your name"
+                required
+                autofocus
+                >
+            </fieldset>
+        
+    
+        </form>
+
+
+</body>
+</html>
