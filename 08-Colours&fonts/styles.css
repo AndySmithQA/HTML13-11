@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.dance {
+    font-family: 'Dancing Script', cursive;
+}
+
+.robot{
+    font-family: 'Roboto', sans-serif;
+}
