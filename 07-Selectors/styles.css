@@ -1,0 +1,17 @@
+p, div {
+    color: pink;
+    font-size: 12px;
+    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    margin: 10px;
+    border: 2px dotted green;
+    padding: 5px;
+}
+
+h1 {
+    font-size: small;
+}
+
+img{
+    src: 'Http://blacbjsdfkjdshf.com'
+}

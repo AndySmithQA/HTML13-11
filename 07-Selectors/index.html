@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  --> 
+    <style>
+
+        /* ul li:first-child{
+            background-color: red;
+        }
+
+        ul li:last-child {
+            background-color: green;
+        } */
+/* 
+        li:nth-child(odd) {
+            background-color: aqua;
+        }
+
+        li:nth-child(even){
+            background-color: bisque;
+        }
+
+        p:first-of-type {
+            background-color: red;
+        }
+
+        p:last-of-type {
+            background-color: green;
+        }
+    */
+
+    p {
+        background-color: blue;
+        color: white;
+    }
+    
+    p:hover {
+        background-color: white;
+        color: blue;
+    }
+
+    p::before {
+        content: "Paragraph ";
+    }
+
+    a[href^="https:"]{
+        color: green;
+    }
+    a[href^="http:"]{
+        color: red;
+    }
+
+    [src$=".png"] {
+        border: 1px red solid;
+    }
+    </style>
+      
+</head>
+<body>
+  
+    <!-- Pseudo-Classes -->
+
+<!-- 
+    <p>This is a paragraph</p> -->
+
+    <a href="http://www.anywhere.com">this goes somewhere</a>
+    <a href="https://www.anywhere.com">this goes somewhere</a>
+
+    <img src="dog.jpg" alt="">
+    <img src="dog.png" alt="">
+
+</body>
+</html>
