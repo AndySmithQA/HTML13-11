@@ -10,7 +10,89 @@
     <title>Document</title>
 </head>
 <body>
-    <p>This is normal text</p>
-    <p class="dance">This is dance font</p>
+<!-- NAVBAR -->
+<nav class="navbar navbar-dark navbar-expand-sm bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand dance" href="#">Andy's <span class="text-warning">Bikes</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto px-3">
+          <li class="nav-item">
+            <a class="nav-link"  href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#service">Service</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#offers">Offers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#mechanics">Mechanics</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- CAROUSEL -->
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/bmw.jpg" class="d-block w-100 img-fluid" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images/honda.jpg" class="d-block w-100 img-fluid" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images/suzuki.jpg" class="d-block w-100 img-fluid" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- SERVICE OPTIONS -->
+
+  <div class="service p-5" id="service">
+    <div class="container">
+        <div class="grid">
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <i class="fa-solid fa-droplet fa-3x text-success my-2"></i>
+                    <p class="h2 dance fw-bold">Oil Service</p>
+                    <p class="lead fst-italic">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem officiis obcaecati, veritatis unde impedit reiciendis vitae perspiciatis cumque ex, provident fuga hic itaque a? Libero provident explicabo fuga dolore consectetur!</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <i class="fa-solid fa-snowflake fa-3x text-primary my-2"></i>
+                    <p class="h2 dance fw-bold">Winter Service</p>
+                    <p class="lead fst-italic">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem officiis obcaecati, veritatis unde impedit reiciendis vitae perspiciatis cumque ex, provident fuga hic itaque a? Libero provident explicabo fuga dolore consectetur!</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <i class="fa-solid fa-flag-checkered fa-3x text-danger my-2"></i>
+                    <p class="h2 dance fw-bold">Race Training</p>
+                    <p class="lead fst-italic">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem officiis obcaecati, veritatis unde impedit reiciendis vitae perspiciatis cumque ex, provident fuga hic itaque a? Libero provident explicabo fuga dolore consectetur!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  </div>
+
 </body>
 </html>
